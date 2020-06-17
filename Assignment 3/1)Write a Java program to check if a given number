@@ -1,0 +1,55 @@
+1)Write a Java program to check if a given number is prime or not. Remember, a prime number is a number which is not divisible by any other number, e.g. 3, 5, 7, 11, 13, 17, etc. Be prepared for cross, e.g. checking till the square root of a number, etc.
+
+2) Write a code to find the factorial of a given number? Given n is the input integer?
+
+3) Write a program to print the fibonacci series to the given number? For Eg: If given value n=15, output should be : 1,2,3,5,8,13
+
+4) Write a Java program to print all permutations of a given String. For example, if given String is "GOD" then your program should print all 6 permutations of this string, e.g. "GOD," "OGD," "DOG," "GDO," "ODG," and "DGO."
+
+5)For a given String, count the individual characters in the string without using string inbuilt functions? Eg: Java Programming - J-1, a-3, v-1, p-1, r-2, o-1, g-1, m-2, i-1, n-1,g-1.  
+
+6) Write a program to find whetehr the given string is present in diagonal of MXN array matrix. You can assume M and N values. If the multiple values present, print the count of the occurences as well.   
+
+7) Java's BigDecimal class can handle arbitrary-precision signed decimal numbers.
+Given an array, S,of N  real number strings, sort them in descending order. Each number must be printed in the exact same format as it was read from stdin, meaning that .1 is printed as .1, and 0.1 is printed as 0.1. If two numbers represent numerically equivalent values (e.g., .1 = 0.1 ), then they must be listed in the same order as they were received as input).
+
+You must rearrange array S's elements according to the instructions above.
+
+Input Format
+
+The first line consists of a single integer, n, denoting the number of integer strings.
+Each line i of the n subsequent lines contains a real number denoting the value of s(i).
+
+Constraints
+1<=n<=20
+Each s(i) has atmost 30 digits.
+
+Each  has at most  digits.
+Output Format
+-------------
+
+Sample Input
+
+9
+-100
+50
+0
+56.6
+90
+0.12
+.12
+02.34
+000.000
+
+Sample Output
+
+90
+56.6
+50
+02.34
+0.12
+.12
+0
+000.000
+-100
+ 
